@@ -1,0 +1,89 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.App {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+}
+.input{
+  
+  height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column ;
+  background-color: rgb(83, 98, 236);
+  
+}
+
+.input input{
+  width: 200px;
+  height: 50px;
+  margin: 10px;
+  font-size: 18px;
+  padding-left: 10px;
+  
+}
+
+.input button{
+  background-color:rgb(31, 78, 235);
+  color: white;
+  width: 100px;
+  padding: 20px;
+  border: 1px solid white;
+ border-radius: 10px;
+ margin: 0 0 10px 0;
+ 
+}
+
+.input button:hover{
+  cursor: pointer;
+}
+
+.listOfFriend{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.Friend{
+  width: 500px;
+  height: 60px;
+  display: flex;  
+  
+}
+.Friend h3{
+  margin-left: 15px;
+}
+
+.friendContainer{
+  display: flex;
+  margin: 10px;
+  text-transform: capitalize;
+  font-family: 'Courier New', Courier, monospace;
+  background-color:rgb(85, 85, 233);
+  color: white;
+}
+
+.friendContainer button{
+  width: 60px;
+  height: 60px;
+  background-color:rgb(85, 85, 233);
+  color: white;
+  border: 1px solid black;
+}
+.friendContainer button:hover{
+  cursor: pointer;
+}
+#removebtn{
+  border-left: none;
+  background-color: rgb(230, 97, 20);
+}
+#update{
+  background-color: rgb(11, 168, 11);
+}
